@@ -133,13 +133,20 @@ dbt build
 ---
 
 ## Dashboard
+The Gold star schema feeds a two-page Power BI dashboard:
 
-The Gold star schema feeds a Power BI dashboard covering four themes:
+**Page 1 — Overview**
+- KPI cards: total encounters, total patients, total claim cost, avg cost per encounter
+- Encounters by class (donut) and encounters over time (line)
+- Cost by payor (bar) and payer coverage vs. patient responsibility by class (stacked column)
 
-- **Cost & Revenue** — claim cost, payer coverage vs. patient responsibility, cost per encounter
-- **Utilization** — encounter volume over time, encounters by class, by provider / organization
-- **Clinical** — top conditions, medications, procedures
-- **Population** — patient demographics, age bands, geography, payor mix
+**Page 2 — Cost & Payor Analysis**
+- KPI cards: total claim cost, total payer coverage, total patient responsibility, patient responsibility %
+- Coverage vs. patient responsibility by payor (stacked bar)
+- Patient count and patient cost by age band (columns)
+- Revenue by hospital (bar, averaged per organization)
+
+Both pages support cross-filtering through the star schema relationships, with month and payor slicers for interactivity.
 
 ---
 
