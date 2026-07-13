@@ -14,8 +14,7 @@ WITH patients AS
         age,
         age_band,
         city,
-        state,
-        insurance_provider
+        state
     FROM
         {{ ref('silver_patients') }}
 )
