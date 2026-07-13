@@ -15,6 +15,5 @@ SELECT
     age,
     age_band,
     city,
-    state,
-    insurance_provider
+    state
 FROM {{ ref('eph_dim_patients') }}
