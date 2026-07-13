@@ -25,8 +25,7 @@
         "table": ref('silver_patients'),
         "columns": "p.gender AS patient_gender, p.race AS patient_race,
                     p.ethnicity AS patient_ethnicity, p.age, p.age_band,
-                    p.city AS patient_city, p.state AS patient_state,
-                    p.insurance_provider",
+                    p.city AS patient_city, p.state AS patient_state",
         "alias": "p",
         "join_condition": "e.patient_id = p.patient_id"
     },
