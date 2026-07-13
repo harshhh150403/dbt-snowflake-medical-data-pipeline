@@ -18,7 +18,6 @@ SELECT
     ethnicity,
     city,
     state,
-    insurance_provider,
     updated_at,
 
     DATEDIFF('year', birth_date, COALESCE(death_date, CURRENT_DATE())) AS age,
