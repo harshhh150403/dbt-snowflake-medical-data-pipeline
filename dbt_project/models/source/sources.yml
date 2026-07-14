@@ -10,7 +10,7 @@ sources:
       - name: raw_payors
       - name: raw_providers
       - name: raw_patients
-        description: "Patient demographics + engineered insurance_provider & updated_at for SCD2."
+        description: "Patient demographics & updated_at for SCD2."
       - name: raw_encounters
         description: "High-volume clinical events; drives incremental fct_encounters."
       - name: raw_conditions
