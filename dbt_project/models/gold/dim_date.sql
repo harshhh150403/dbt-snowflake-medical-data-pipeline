@@ -7,8 +7,7 @@
 
 /*
     gold dim_date
-    Date dimension for Power BI time intelligence.
-    Generated with plain SQL over the encounter date range 
+    Date dimension for Power BI time intelligence
 */
 
 WITH date_range AS (
